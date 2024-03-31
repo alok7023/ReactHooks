@@ -1,6 +1,7 @@
 
 import './App.css';
-import UseCallback from './useCallback/useCallback';
+// import UseCallback from './useCallback/useCallback';
+import UseContext from './useContext/UseContext';
 // import UseMemo from './useMemo/useMemo';
 // import UseRef from './useRef/useRef1';
 // import UseRef2 from './useRef/useRef2';
@@ -12,7 +13,8 @@ function App() {
       {/* <UseRef/>
       <UseRef2/> */}
       {/* <UseMemo/> */}
-      <UseCallback/>
+      {/* <UseCallback/> */}
+      <UseContext/>
     </div>
   );
 }
